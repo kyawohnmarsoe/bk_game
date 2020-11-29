@@ -1,0 +1,116 @@
+body{
+    background:#6c2721;
+}
+.game-wapper{
+    max-width: 100%;
+    margin:auto;
+}
+.custom-img-fluid{
+    width: 100%;
+}
+.section-one-wapper{
+    background:url('img/SectionOneBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 295px;
+    position: relative;
+}
+.game-text{
+    width:285px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.customer{
+    width:285px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%,0%);
+}
+.timer{
+    position: absolute;
+    width: 170px;
+    top:10px;
+    right:50%;
+    transform: translate(50%,0%);
+}
+.timer-text{
+    position: absolute;
+    width: 150px;
+    top:13px;
+    right:50%;
+    transform: translate(50%,0%);
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.section-two-wapper{
+    background:url('img/SectionTwoBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 260px;
+    position: relative;
+}
+.tray-wapper{
+    position: relative;
+    width: 300px;
+    height: 260px;
+    margin:auto;
+}
+.tray{
+    width:100%;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+.tray-drink{
+    width:30%;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+.tray-pizza{
+    width:30%;
+    position: absolute;
+    left: 36%;
+    top: 54%;
+    transform: translate(0%,-50%);
+}
+.tray-chips{
+    width:30%;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+td:nth-child(1),td:nth-child(2){
+    background:#ac1a16;
+}
+td:nth-child(3),td:nth-child(4){
+    background:#34386f;
+}
+td:nth-child(5),td:nth-child(6){
+    background:#22231f;
+}
+.table{
+    margin-bottom: 0;
+    max-width: 500px;
+    margin:auto;
+}
+@media (min-width: 768px) { 
+    .section-one-wapper {
+        height:320px;
+    }
+    .section-two-wapper {
+        height:280px;
+    }
+
+}
+
+
